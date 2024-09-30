@@ -5,7 +5,7 @@
   
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
-  <project path="build/kernel" name="kernel/build" />
+  <project path="build/kernel" name="kernel/build" revision="android-wear-14.0.0_r0.3" clone-depth="1" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
   <project path="common" name="Yaroslav51-dev/android_kernel_xiaomi_liuqin" remote="github" revision="main" />
   <project path="kernel/tests" name="kernel/tests" revision="main" />
