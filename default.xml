@@ -7,11 +7,11 @@
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" clone-depth="1" />
   <project path="build" name="Yaroslav51-dev/build" revision="main" remote="github" clone-depth="1" />
-  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" clone-depth="1" />
-  <project path="common" name="Yaroslav51-dev/android_kernel_xiaomi_liuqin" remote="github" revision="main" clone-depth="1" />
-  <project path="kernel/tests" name="kernel/tests" revision="main" clone-depth="1" clone-depth="1" />
-  <project path="kernel/configs" name="kernel/configs" clone-depth="1" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" clone-depth="1" />
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
+  <project path="common" name="Yaroslav51-dev/android_kernel_xiaomi_liuqin" remote="github" revision="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" />
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
   <project path="clang" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" remote="gitlab" revision="14.0" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
