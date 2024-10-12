@@ -7,7 +7,7 @@
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
   <project path="build" name="Yaroslav51-dev/build" revision="main" remote="github" clone-depth="1" />
   <project path="common" name="Yaroslav51-dev/android_kernel_xiaomi_liuqin" remote="github" revision="main" />
-  <project path="clang" name="platform/prebuilts/clang/host/linux-x86" revision="android15-tests-release" clone-depth="1" />
+  <project path="clang/clang-r530567" name="platform/prebuilts/clang/host/linux-x86/clang-r530567" revision="android15-tests-release" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
