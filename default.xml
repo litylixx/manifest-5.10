@@ -5,7 +5,7 @@
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
-  <project path="build" name="kernel/build" clone-depth="1" />
+  <project path="build" name="Yaroslav51-dev/build" revision="main" remote="github" clone-depth="1" />
   <project path="common" name="Yaroslav51-dev/android_kernel_xiaomi_liuqin" remote="github" revision="master" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
